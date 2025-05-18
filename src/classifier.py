@@ -77,7 +77,7 @@ def predict_priority(text):
     elif low_score > 0:
         return "Low"
     else:
-        return "Medium"   # default fallback if no keywords matched
+        return "Medium"   # default priority fallback if no priority keywords matched
 
 
 def assign_priority_to_dataset(df, text_column):
