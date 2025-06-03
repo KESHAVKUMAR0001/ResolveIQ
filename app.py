@@ -10,7 +10,7 @@ from feature_extractor import create_features, split_data
 from classifier import train_category_model, save_model, load_model, predict_priority
 from evaluator import evaluate_model, plot_confusion_matrix
 
-st.set_page_config(page_title="ResolveIQ - Support Ticket Classifier", page_icon="🎫", layout="wide")
+st.set_page_config(page_title="ResolveIQ - Support Ticket Classifier", page_icon="🎫", layout="wide", initial_sidebar_state="expanded")
 
 st.title("🎫 ResolveIQ — Support Ticket Classification & Prioritization")
 st.markdown("Upload support tickets, train a model, and classify new tickets by category and priority.")
